@@ -8,7 +8,7 @@ https://raw.github.com/vrana/adminer/master/designs/ng9/adminer.css
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700|Inconsolata);
 
 
-* {
+input, body, textarea, select {
 	font: 13px/1.7 "Roboto","Proxima Nova Rg","Source Sans Pro","Droid Sans",Arial,Helvetica, sans-serif;
 	color:#333333;
 	margin:0px;
@@ -44,12 +44,12 @@ a,a:visited {
 	color:black;
 }
 
-pre.sqlarea{
-	background: white;	
+pre.sqlarea {
+	background: white;
+	font-family: "Consolas";
 }
-pre.sqlarea span,pre.sqlarea span{
-	font-family: Inconsolata;
-	font-size: 1.2em;	
+
+pre.sqlarea span, pre.sqlarea span {
 }
 
 a:hover {
